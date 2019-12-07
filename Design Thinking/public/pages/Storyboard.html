@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Design Thinking</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="/public/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="/public//css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="/public/js/materialize.min.js"></script>
+  <link rel="manifest" href="/public/manifest.json">
+  <link rel="stylesheet" href="/public/css/styles.css">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+  <meta name="theme-color" content="#FFE1C4">
+</head>
+
+<body class="grey lighten-4">
+
+    <!-- top nav -->
+    <nav class="z-depth-0">
+      <div class="nav-wrapper container">
+        <a href="/public/index.html">Design<span> Thinking</span></a>
+        <span class="right grey-text text-darken-1">
+          <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+        </span>
+      </div>
+    </nav>
+  
+   <!-- side nav -->
+   <ul id="side-menu" class="sidenav side-menu">
+          <li><a class="subheader">Learn Design Thinking</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="/public/index.html" class="waves-effect">Introduction</a></li>
+          <li><a href="/public/pages/Research.html" class="waves-effect">Übung</a></li>
+          <li><a href="/public/pages/poster.html" class="waves-effect">Poster</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="/public/pages/Info.html" class="waves-effect">Info</a></li>
+        </ul>
+        <!--content-->
+<div class="container grey-text">
+  <h5 class="center">Storyboard</h5>
+  <p> 
+    Watch the Video to get a Introduction to Storyboard.
+  </p>
+    <iframe class="center" height="305" width="100%"; max-width=" 2000px" margin: auto; src="https://www.youtube.com/embed/pXtN4y3O35M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen margin: auto;></iframe>
+</div>
+<br>
+<!--Textarea & Button-->
+<script type="text/javascript">
+  function fn1()
+  {
+    var str =document.getElementById("text1").value;
+    alert("Value inside the text box is: " + str);
+    window.location.href="/public/pages/Test2.html"
+  }
+  function fn2()
+  {
+    window.location.href="/public/pages/Test.html"
+  }
+</script>
+<div class="center">
+  <textarea id="text1"></textarea>
+</div>
+<br>
+<div class="center">
+  <button onclick="fn2()" id=btn2>Back</button>
+  <button onclick="fn1()" id=btn1>Next</button>
+</div>
+
+<script src="/public/js/app.js"></script>
+<script src="/public/js/ui.js"></script>
+</body>
+</html>

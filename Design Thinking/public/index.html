@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Design Thinking</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="/public/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" href="/public/css/styles.css" rel="stylesheet">
+  <script type="text/javascript" src="/public/js/materialize.min.js"></script>
+  <link rel="manifest" href="/public/manifest.json">
+  <!-- ios support -->
+  <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+  <meta name="theme-color" content="#FFE1C4">
+</head>
+
+<body class="grey lighten-4">
+
+  <!-- top nav -->
+  <nav class="z-depth-0">
+     <div class="nav-wrapper container">
+       <a href="index.html">Design<span> Thinking</span></a>
+     </div>
+  </nav>
+ 
+     <!--content-->
+  <div class="container grey-text">
+       <h5 class="center">Introduction</h5>
+       <p> 
+         Welcome to the Design Thiking Express Work Shop. Watch the Video to get a Introduction to Design Thinking.
+       </p>
+         <iframe class="center" height="305" width="100%"; max-width=" 2000px" margin: auto; src="https://www.youtube.com/embed/pXtN4y3O35M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen margin: auto;></iframe>
+       <p>
+         To start the Workshop, you can click the button bellow.
+       </p>
+  </div>
+ 
+     <!--Start button-->
+  <div class="center">
+     <a href="/public/pages/Research.html">
+     <button> Start </button>
+     </a>
+  </div>
+   
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCNx4SQCkq6k20XHf5j5HyAkKt9NtfO1p8",
+    authDomain: "design-thinking-course-hhn.firebaseapp.com",
+    databaseURL: "https://design-thinking-course-hhn.firebaseio.com",
+    projectId: "design-thinking-course-hhn",
+    storageBucket: "design-thinking-course-hhn.appspot.com",
+    messagingSenderId: "754617086244",
+    appId: "1:754617086244:web:42e1ef2d4d3125cdd543b1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  <script src="js/app.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="/js/db.js"></script>
+
+</body>
+</html>

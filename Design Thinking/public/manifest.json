@@ -1,0 +1,9 @@
+{
+  "name": "Design Thinking",
+  "short_name": "Design Thinking",
+  "start_url": "/public/index.html",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary"
+}
