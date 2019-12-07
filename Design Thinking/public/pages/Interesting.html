@@ -50,18 +50,27 @@
 <br>
 <!--Textarea & Button-->
 <script type="text/javascript">
+
+  function startUp () {
+
+    document.getElementById("text1").value = localStorage.getItem("UserInput");
+  }
+
   function fn1()
   {
     var str =document.getElementById("text1").value;
+    if(localStorage) {
+      localStorage.setItem("UserInput", str);
+    }
     alert("Value inside the text box is: " + str);
     window.location.href="/public/pages/DigDeeper.html"
   }
   function fn2()
   {
     window.location.href="/public/pages/Research.html"
-    var str = document.getElementById("text1").value;
   }
 </script>
+<body onload="startUp();">
 <div class="center">
   <textarea id="text1"></textarea>
 </div>
